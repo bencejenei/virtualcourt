@@ -13,7 +13,7 @@ def format_team_bio_file() -> None:
     """
 
     raw_file: list[list[str]] = json.load(open(team_bio_raw(), "r"))
-    team_database: list = []
+    team_database: dict = {}
 
     for entry in raw_file:
         temp_dict: dict = {entry[0]: {"team_id": entry[0],
@@ -25,7 +25,7 @@ def format_team_bio_file() -> None:
                                       "team_state": entry[6],
                                       "team_championship_years": entry[7]}
         }
-        team_database.append(temp_dict)
+        team_database.update(temp_dict)
 
     open(team_bio_formatted(), "w").write(json.dumps(team_database, indent=4))
 

@@ -1,458 +1,398 @@
-[
-    {
-        "1610612737": {
-            "team_id": 1610612737,
-            "team_tag": "ATL",
-            "team_nickname": "Hawks",
-            "team_establishment": 1949,
-            "team_city": "Atlanta",
-            "team_name": "Atlanta Hawks",
-            "team_state": "Georgia",
-            "team_championship_years": [
-                1958
-            ]
-        }
+{
+    "1610612737": {
+        "team_id": 1610612737,
+        "team_tag": "ATL",
+        "team_nickname": "Hawks",
+        "team_establishment": 1949,
+        "team_city": "Atlanta",
+        "team_name": "Atlanta Hawks",
+        "team_state": "Georgia",
+        "team_championship_years": [
+            1958
+        ]
     },
-    {
-        "1610612738": {
-            "team_id": 1610612738,
-            "team_tag": "BOS",
-            "team_nickname": "Celtics",
-            "team_establishment": 1946,
-            "team_city": "Boston",
-            "team_name": "Boston Celtics",
-            "team_state": "Massachusetts",
-            "team_championship_years": [
-                1957,
-                1959,
-                1960,
-                1961,
-                1962,
-                1963,
-                1964,
-                1965,
-                1966,
-                1968,
-                1969,
-                1974,
-                1976,
-                1981,
-                1984,
-                1986,
-                2008
-            ]
-        }
+    "1610612738": {
+        "team_id": 1610612738,
+        "team_tag": "BOS",
+        "team_nickname": "Celtics",
+        "team_establishment": 1946,
+        "team_city": "Boston",
+        "team_name": "Boston Celtics",
+        "team_state": "Massachusetts",
+        "team_championship_years": [
+            1957,
+            1959,
+            1960,
+            1961,
+            1962,
+            1963,
+            1964,
+            1965,
+            1966,
+            1968,
+            1969,
+            1974,
+            1976,
+            1981,
+            1984,
+            1986,
+            2008
+        ]
     },
-    {
-        "1610612739": {
-            "team_id": 1610612739,
-            "team_tag": "CLE",
-            "team_nickname": "Cavaliers",
-            "team_establishment": 1970,
-            "team_city": "Cleveland",
-            "team_name": "Cleveland Cavaliers",
-            "team_state": "Ohio",
-            "team_championship_years": [
-                2016
-            ]
-        }
+    "1610612739": {
+        "team_id": 1610612739,
+        "team_tag": "CLE",
+        "team_nickname": "Cavaliers",
+        "team_establishment": 1970,
+        "team_city": "Cleveland",
+        "team_name": "Cleveland Cavaliers",
+        "team_state": "Ohio",
+        "team_championship_years": [
+            2016
+        ]
     },
-    {
-        "1610612740": {
-            "team_id": 1610612740,
-            "team_tag": "NOP",
-            "team_nickname": "Pelicans",
-            "team_establishment": 2002,
-            "team_city": "New Orleans",
-            "team_name": "New Orleans Pelicans",
-            "team_state": "Louisiana",
-            "team_championship_years": []
-        }
+    "1610612740": {
+        "team_id": 1610612740,
+        "team_tag": "NOP",
+        "team_nickname": "Pelicans",
+        "team_establishment": 2002,
+        "team_city": "New Orleans",
+        "team_name": "New Orleans Pelicans",
+        "team_state": "Louisiana",
+        "team_championship_years": []
     },
-    {
-        "1610612741": {
-            "team_id": 1610612741,
-            "team_tag": "CHI",
-            "team_nickname": "Bulls",
-            "team_establishment": 1966,
-            "team_city": "Chicago",
-            "team_name": "Chicago Bulls",
-            "team_state": "Illinois",
-            "team_championship_years": [
-                1991,
-                1992,
-                1993,
-                1996,
-                1997,
-                1998
-            ]
-        }
+    "1610612741": {
+        "team_id": 1610612741,
+        "team_tag": "CHI",
+        "team_nickname": "Bulls",
+        "team_establishment": 1966,
+        "team_city": "Chicago",
+        "team_name": "Chicago Bulls",
+        "team_state": "Illinois",
+        "team_championship_years": [
+            1991,
+            1992,
+            1993,
+            1996,
+            1997,
+            1998
+        ]
     },
-    {
-        "1610612742": {
-            "team_id": 1610612742,
-            "team_tag": "DAL",
-            "team_nickname": "Mavericks",
-            "team_establishment": 1980,
-            "team_city": "Dallas",
-            "team_name": "Dallas Mavericks",
-            "team_state": "Texas",
-            "team_championship_years": [
-                2011
-            ]
-        }
+    "1610612742": {
+        "team_id": 1610612742,
+        "team_tag": "DAL",
+        "team_nickname": "Mavericks",
+        "team_establishment": 1980,
+        "team_city": "Dallas",
+        "team_name": "Dallas Mavericks",
+        "team_state": "Texas",
+        "team_championship_years": [
+            2011
+        ]
     },
-    {
-        "1610612743": {
-            "team_id": 1610612743,
-            "team_tag": "DEN",
-            "team_nickname": "Nuggets",
-            "team_establishment": 1976,
-            "team_city": "Denver",
-            "team_name": "Denver Nuggets",
-            "team_state": "Colorado",
-            "team_championship_years": [
-                2023
-            ]
-        }
+    "1610612743": {
+        "team_id": 1610612743,
+        "team_tag": "DEN",
+        "team_nickname": "Nuggets",
+        "team_establishment": 1976,
+        "team_city": "Denver",
+        "team_name": "Denver Nuggets",
+        "team_state": "Colorado",
+        "team_championship_years": [
+            2023
+        ]
     },
-    {
-        "1610612744": {
-            "team_id": 1610612744,
-            "team_tag": "GSW",
-            "team_nickname": "Warriors",
-            "team_establishment": 1946,
-            "team_city": "Golden State",
-            "team_name": "Golden State Warriors",
-            "team_state": "California",
-            "team_championship_years": [
-                1947,
-                1956,
-                1975,
-                2015,
-                2017,
-                2018,
-                2022
-            ]
-        }
+    "1610612744": {
+        "team_id": 1610612744,
+        "team_tag": "GSW",
+        "team_nickname": "Warriors",
+        "team_establishment": 1946,
+        "team_city": "Golden State",
+        "team_name": "Golden State Warriors",
+        "team_state": "California",
+        "team_championship_years": [
+            1947,
+            1956,
+            1975,
+            2015,
+            2017,
+            2018,
+            2022
+        ]
     },
-    {
-        "1610612745": {
-            "team_id": 1610612745,
-            "team_tag": "HOU",
-            "team_nickname": "Rockets",
-            "team_establishment": 1967,
-            "team_city": "Houston",
-            "team_name": "Houston Rockets",
-            "team_state": "Texas",
-            "team_championship_years": [
-                1994,
-                1995
-            ]
-        }
+    "1610612745": {
+        "team_id": 1610612745,
+        "team_tag": "HOU",
+        "team_nickname": "Rockets",
+        "team_establishment": 1967,
+        "team_city": "Houston",
+        "team_name": "Houston Rockets",
+        "team_state": "Texas",
+        "team_championship_years": [
+            1994,
+            1995
+        ]
     },
-    {
-        "1610612746": {
-            "team_id": 1610612746,
-            "team_tag": "LAC",
-            "team_nickname": "Clippers",
-            "team_establishment": 1970,
-            "team_city": "Los Angeles",
-            "team_name": "Los Angeles Clippers",
-            "team_state": "California",
-            "team_championship_years": []
-        }
+    "1610612746": {
+        "team_id": 1610612746,
+        "team_tag": "LAC",
+        "team_nickname": "Clippers",
+        "team_establishment": 1970,
+        "team_city": "Los Angeles",
+        "team_name": "Los Angeles Clippers",
+        "team_state": "California",
+        "team_championship_years": []
     },
-    {
-        "1610612747": {
-            "team_id": 1610612747,
-            "team_tag": "LAL",
-            "team_nickname": "Lakers",
-            "team_establishment": 1948,
-            "team_city": "Los Angeles",
-            "team_name": "Los Angeles Lakers",
-            "team_state": "California",
-            "team_championship_years": [
-                1949,
-                1950,
-                1952,
-                1953,
-                1954,
-                1972,
-                1980,
-                1982,
-                1985,
-                1987,
-                1988,
-                2000,
-                2001,
-                2002,
-                2009,
-                2010,
-                2020
-            ]
-        }
+    "1610612747": {
+        "team_id": 1610612747,
+        "team_tag": "LAL",
+        "team_nickname": "Lakers",
+        "team_establishment": 1948,
+        "team_city": "Los Angeles",
+        "team_name": "Los Angeles Lakers",
+        "team_state": "California",
+        "team_championship_years": [
+            1949,
+            1950,
+            1952,
+            1953,
+            1954,
+            1972,
+            1980,
+            1982,
+            1985,
+            1987,
+            1988,
+            2000,
+            2001,
+            2002,
+            2009,
+            2010,
+            2020
+        ]
     },
-    {
-        "1610612748": {
-            "team_id": 1610612748,
-            "team_tag": "MIA",
-            "team_nickname": "Heat",
-            "team_establishment": 1988,
-            "team_city": "Miami",
-            "team_name": "Miami Heat",
-            "team_state": "Florida",
-            "team_championship_years": [
-                2006,
-                2012,
-                2013
-            ]
-        }
+    "1610612748": {
+        "team_id": 1610612748,
+        "team_tag": "MIA",
+        "team_nickname": "Heat",
+        "team_establishment": 1988,
+        "team_city": "Miami",
+        "team_name": "Miami Heat",
+        "team_state": "Florida",
+        "team_championship_years": [
+            2006,
+            2012,
+            2013
+        ]
     },
-    {
-        "1610612749": {
-            "team_id": 1610612749,
-            "team_tag": "MIL",
-            "team_nickname": "Bucks",
-            "team_establishment": 1968,
-            "team_city": "Milwaukee",
-            "team_name": "Milwaukee Bucks",
-            "team_state": "Wisconsin",
-            "team_championship_years": [
-                1971,
-                2021
-            ]
-        }
+    "1610612749": {
+        "team_id": 1610612749,
+        "team_tag": "MIL",
+        "team_nickname": "Bucks",
+        "team_establishment": 1968,
+        "team_city": "Milwaukee",
+        "team_name": "Milwaukee Bucks",
+        "team_state": "Wisconsin",
+        "team_championship_years": [
+            1971,
+            2021
+        ]
     },
-    {
-        "1610612750": {
-            "team_id": 1610612750,
-            "team_tag": "MIN",
-            "team_nickname": "Timberwolves",
-            "team_establishment": 1989,
-            "team_city": "Minnesota",
-            "team_name": "Minnesota Timberwolves",
-            "team_state": "Minnesota",
-            "team_championship_years": []
-        }
+    "1610612750": {
+        "team_id": 1610612750,
+        "team_tag": "MIN",
+        "team_nickname": "Timberwolves",
+        "team_establishment": 1989,
+        "team_city": "Minnesota",
+        "team_name": "Minnesota Timberwolves",
+        "team_state": "Minnesota",
+        "team_championship_years": []
     },
-    {
-        "1610612751": {
-            "team_id": 1610612751,
-            "team_tag": "BKN",
-            "team_nickname": "Nets",
-            "team_establishment": 1976,
-            "team_city": "Brooklyn",
-            "team_name": "Brooklyn Nets",
-            "team_state": "New York",
-            "team_championship_years": []
-        }
+    "1610612751": {
+        "team_id": 1610612751,
+        "team_tag": "BKN",
+        "team_nickname": "Nets",
+        "team_establishment": 1976,
+        "team_city": "Brooklyn",
+        "team_name": "Brooklyn Nets",
+        "team_state": "New York",
+        "team_championship_years": []
     },
-    {
-        "1610612752": {
-            "team_id": 1610612752,
-            "team_tag": "NYK",
-            "team_nickname": "Knicks",
-            "team_establishment": 1946,
-            "team_city": "New York",
-            "team_name": "New York Knicks",
-            "team_state": "New York",
-            "team_championship_years": [
-                1970,
-                1973
-            ]
-        }
+    "1610612752": {
+        "team_id": 1610612752,
+        "team_tag": "NYK",
+        "team_nickname": "Knicks",
+        "team_establishment": 1946,
+        "team_city": "New York",
+        "team_name": "New York Knicks",
+        "team_state": "New York",
+        "team_championship_years": [
+            1970,
+            1973
+        ]
     },
-    {
-        "1610612753": {
-            "team_id": 1610612753,
-            "team_tag": "ORL",
-            "team_nickname": "Magic",
-            "team_establishment": 1989,
-            "team_city": "Orlando",
-            "team_name": "Orlando Magic",
-            "team_state": "Florida",
-            "team_championship_years": []
-        }
+    "1610612753": {
+        "team_id": 1610612753,
+        "team_tag": "ORL",
+        "team_nickname": "Magic",
+        "team_establishment": 1989,
+        "team_city": "Orlando",
+        "team_name": "Orlando Magic",
+        "team_state": "Florida",
+        "team_championship_years": []
     },
-    {
-        "1610612754": {
-            "team_id": 1610612754,
-            "team_tag": "IND",
-            "team_nickname": "Pacers",
-            "team_establishment": 1976,
-            "team_city": "Indiana",
-            "team_name": "Indiana Pacers",
-            "team_state": "Indiana",
-            "team_championship_years": []
-        }
+    "1610612754": {
+        "team_id": 1610612754,
+        "team_tag": "IND",
+        "team_nickname": "Pacers",
+        "team_establishment": 1976,
+        "team_city": "Indiana",
+        "team_name": "Indiana Pacers",
+        "team_state": "Indiana",
+        "team_championship_years": []
     },
-    {
-        "1610612755": {
-            "team_id": 1610612755,
-            "team_tag": "PHI",
-            "team_nickname": "76ers",
-            "team_establishment": 1949,
-            "team_city": "Philadelphia",
-            "team_name": "Philadelphia 76ers",
-            "team_state": "Pennsylvania",
-            "team_championship_years": [
-                1955,
-                1967,
-                1983
-            ]
-        }
+    "1610612755": {
+        "team_id": 1610612755,
+        "team_tag": "PHI",
+        "team_nickname": "76ers",
+        "team_establishment": 1949,
+        "team_city": "Philadelphia",
+        "team_name": "Philadelphia 76ers",
+        "team_state": "Pennsylvania",
+        "team_championship_years": [
+            1955,
+            1967,
+            1983
+        ]
     },
-    {
-        "1610612756": {
-            "team_id": 1610612756,
-            "team_tag": "PHX",
-            "team_nickname": "Suns",
-            "team_establishment": 1968,
-            "team_city": "Phoenix",
-            "team_name": "Phoenix Suns",
-            "team_state": "Arizona",
-            "team_championship_years": []
-        }
+    "1610612756": {
+        "team_id": 1610612756,
+        "team_tag": "PHX",
+        "team_nickname": "Suns",
+        "team_establishment": 1968,
+        "team_city": "Phoenix",
+        "team_name": "Phoenix Suns",
+        "team_state": "Arizona",
+        "team_championship_years": []
     },
-    {
-        "1610612757": {
-            "team_id": 1610612757,
-            "team_tag": "POR",
-            "team_nickname": "Trail Blazers",
-            "team_establishment": 1970,
-            "team_city": "Portland",
-            "team_name": "Portland Trail Blazers",
-            "team_state": "Oregon",
-            "team_championship_years": [
-                1977
-            ]
-        }
+    "1610612757": {
+        "team_id": 1610612757,
+        "team_tag": "POR",
+        "team_nickname": "Trail Blazers",
+        "team_establishment": 1970,
+        "team_city": "Portland",
+        "team_name": "Portland Trail Blazers",
+        "team_state": "Oregon",
+        "team_championship_years": [
+            1977
+        ]
     },
-    {
-        "1610612758": {
-            "team_id": 1610612758,
-            "team_tag": "SAC",
-            "team_nickname": "Kings",
-            "team_establishment": 1948,
-            "team_city": "Sacramento",
-            "team_name": "Sacramento Kings",
-            "team_state": "California",
-            "team_championship_years": [
-                1951
-            ]
-        }
+    "1610612758": {
+        "team_id": 1610612758,
+        "team_tag": "SAC",
+        "team_nickname": "Kings",
+        "team_establishment": 1948,
+        "team_city": "Sacramento",
+        "team_name": "Sacramento Kings",
+        "team_state": "California",
+        "team_championship_years": [
+            1951
+        ]
     },
-    {
-        "1610612759": {
-            "team_id": 1610612759,
-            "team_tag": "SAS",
-            "team_nickname": "Spurs",
-            "team_establishment": 1976,
-            "team_city": "San Antonio",
-            "team_name": "San Antonio Spurs",
-            "team_state": "Texas",
-            "team_championship_years": [
-                1999,
-                2003,
-                2005,
-                2007,
-                2014
-            ]
-        }
+    "1610612759": {
+        "team_id": 1610612759,
+        "team_tag": "SAS",
+        "team_nickname": "Spurs",
+        "team_establishment": 1976,
+        "team_city": "San Antonio",
+        "team_name": "San Antonio Spurs",
+        "team_state": "Texas",
+        "team_championship_years": [
+            1999,
+            2003,
+            2005,
+            2007,
+            2014
+        ]
     },
-    {
-        "1610612760": {
-            "team_id": 1610612760,
-            "team_tag": "OKC",
-            "team_nickname": "Thunder",
-            "team_establishment": 1967,
-            "team_city": "Oklahoma City",
-            "team_name": "Oklahoma City Thunder",
-            "team_state": "Oklahoma",
-            "team_championship_years": [
-                1979
-            ]
-        }
+    "1610612760": {
+        "team_id": 1610612760,
+        "team_tag": "OKC",
+        "team_nickname": "Thunder",
+        "team_establishment": 1967,
+        "team_city": "Oklahoma City",
+        "team_name": "Oklahoma City Thunder",
+        "team_state": "Oklahoma",
+        "team_championship_years": [
+            1979
+        ]
     },
-    {
-        "1610612761": {
-            "team_id": 1610612761,
-            "team_tag": "TOR",
-            "team_nickname": "Raptors",
-            "team_establishment": 1995,
-            "team_city": "Toronto",
-            "team_name": "Toronto Raptors",
-            "team_state": "Ontario",
-            "team_championship_years": [
-                2019
-            ]
-        }
+    "1610612761": {
+        "team_id": 1610612761,
+        "team_tag": "TOR",
+        "team_nickname": "Raptors",
+        "team_establishment": 1995,
+        "team_city": "Toronto",
+        "team_name": "Toronto Raptors",
+        "team_state": "Ontario",
+        "team_championship_years": [
+            2019
+        ]
     },
-    {
-        "1610612762": {
-            "team_id": 1610612762,
-            "team_tag": "UTA",
-            "team_nickname": "Jazz",
-            "team_establishment": 1974,
-            "team_city": "Utah",
-            "team_name": "Utah Jazz",
-            "team_state": "Utah",
-            "team_championship_years": []
-        }
+    "1610612762": {
+        "team_id": 1610612762,
+        "team_tag": "UTA",
+        "team_nickname": "Jazz",
+        "team_establishment": 1974,
+        "team_city": "Utah",
+        "team_name": "Utah Jazz",
+        "team_state": "Utah",
+        "team_championship_years": []
     },
-    {
-        "1610612763": {
-            "team_id": 1610612763,
-            "team_tag": "MEM",
-            "team_nickname": "Grizzlies",
-            "team_establishment": 1995,
-            "team_city": "Memphis",
-            "team_name": "Memphis Grizzlies",
-            "team_state": "Tennessee",
-            "team_championship_years": []
-        }
+    "1610612763": {
+        "team_id": 1610612763,
+        "team_tag": "MEM",
+        "team_nickname": "Grizzlies",
+        "team_establishment": 1995,
+        "team_city": "Memphis",
+        "team_name": "Memphis Grizzlies",
+        "team_state": "Tennessee",
+        "team_championship_years": []
     },
-    {
-        "1610612764": {
-            "team_id": 1610612764,
-            "team_tag": "WAS",
-            "team_nickname": "Wizards",
-            "team_establishment": 1961,
-            "team_city": "Washington",
-            "team_name": "Washington Wizards",
-            "team_state": "District of Columbia",
-            "team_championship_years": [
-                1978
-            ]
-        }
+    "1610612764": {
+        "team_id": 1610612764,
+        "team_tag": "WAS",
+        "team_nickname": "Wizards",
+        "team_establishment": 1961,
+        "team_city": "Washington",
+        "team_name": "Washington Wizards",
+        "team_state": "District of Columbia",
+        "team_championship_years": [
+            1978
+        ]
     },
-    {
-        "1610612765": {
-            "team_id": 1610612765,
-            "team_tag": "DET",
-            "team_nickname": "Pistons",
-            "team_establishment": 1948,
-            "team_city": "Detroit",
-            "team_name": "Detroit Pistons",
-            "team_state": "Michigan",
-            "team_championship_years": [
-                1989,
-                1990,
-                2004
-            ]
-        }
+    "1610612765": {
+        "team_id": 1610612765,
+        "team_tag": "DET",
+        "team_nickname": "Pistons",
+        "team_establishment": 1948,
+        "team_city": "Detroit",
+        "team_name": "Detroit Pistons",
+        "team_state": "Michigan",
+        "team_championship_years": [
+            1989,
+            1990,
+            2004
+        ]
     },
-    {
-        "1610612766": {
-            "team_id": 1610612766,
-            "team_tag": "CHA",
-            "team_nickname": "Hornets",
-            "team_establishment": 1988,
-            "team_city": "Charlotte",
-            "team_name": "Charlotte Hornets",
-            "team_state": "North Carolina",
-            "team_championship_years": []
-        }
+    "1610612766": {
+        "team_id": 1610612766,
+        "team_tag": "CHA",
+        "team_nickname": "Hornets",
+        "team_establishment": 1988,
+        "team_city": "Charlotte",
+        "team_name": "Charlotte Hornets",
+        "team_state": "North Carolina",
+        "team_championship_years": []
     }
-]
+}

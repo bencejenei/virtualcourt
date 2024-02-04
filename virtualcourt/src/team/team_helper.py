@@ -21,13 +21,10 @@ def load_teams_stats():
 def extract_team_ids():
     teams_bio = load_teams_bio()
     team_ids = []
-    temp_list = []
 
     for team_bio in teams_bio:
-        temp_list.append(list(team_bio.keys()))
+        team_ids.append(team_bio)
 
-    for x in temp_list:
-        team_ids.append(x[0])
     return team_ids
 
 
@@ -45,9 +42,10 @@ def extract_team_tags():
 def match_tag_to_id(id_to_find):
     teams_bio = load_teams_bio()
     tag = ""
-    for team_bio in teams_bio:
-        if id_to_find == list(team_bio.keys())[0]:
-            tag = team_bio[id_to_find]["team_tag"]
+    for team_bio in teams_bio.items():
+        x = team_bio[0]
+        if id_to_find == team_bio[0]:
+            tag = team_bio[1]["team_tag"]
         else:
             pass
     return tag

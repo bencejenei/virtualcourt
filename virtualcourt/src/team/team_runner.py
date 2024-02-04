@@ -18,7 +18,7 @@ class Team:
     @property
     def team_data(self):
         every_bio = json.load(open(team_bio_formatted(), "r"))
-        print(every_bio[0])
+        print(every_bio[self.team_id]["team_nickname"])
 
 
 def create_team_list():
