@@ -13,15 +13,13 @@ def format_team_stats_file() -> None:
     team_bio = json.load(open(team_bio_formatted(), mode='r'))
 
     csv_file = csv.DictReader(raw_team_stats, quotechar=",")
-    team_stats: list = []
+    team_stats: dict = {}
 
     for row in csv_file:
-        print(row)
         for team in team_bio:
-            if (team["team_name"]) == row["Team"]:
-                print(team["team_id"])
-                row.update({"team_id": team["team_id"]})
-        team_stats.append(row)
+            for value in team.values():
+                if value["team_name"] == row["Team"]:
+                    team_stats.update({value["team_id"]: row})
 
     open(team_stats_formatted(), "w").write(json.dumps(team_stats, indent=4))
 

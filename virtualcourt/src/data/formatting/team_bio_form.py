@@ -16,15 +16,14 @@ def format_team_bio_file() -> None:
     team_database: list = []
 
     for entry in raw_file:
-        print(entry)
-        temp_dict: dict = {"team_id": entry[0],
-                           "team_tag": entry[1],
-                           "team_nickname": entry[2],
-                           "team_establishment": entry[3],
-                           "team_city": entry[4],
-                           "team_name": entry[5],
-                           "team_state": entry[6],
-                           "team_championship_years": entry[7]
+        temp_dict: dict = {entry[0]: {"team_id": entry[0],
+                                      "team_tag": entry[1],
+                                      "team_nickname": entry[2],
+                                      "team_establishment": entry[3],
+                                      "team_city": entry[4],
+                                      "team_name": entry[5],
+                                      "team_state": entry[6],
+                                      "team_championship_years": entry[7]}
         }
         team_database.append(temp_dict)
 
