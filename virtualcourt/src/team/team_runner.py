@@ -18,7 +18,7 @@ class Team:
 
     def __init__(self, team_id: str, team_tag: str):
         self.bio: dict = Team.teams_bio[str(team_id)]
-        self.stats: dict = Team.teams_stat[str(team_id)]
+        self.team_stats: dict = Team.teams_stat[str(team_id)]
         self.team_id: str = str(team_id)
         self.team_tag: str = team_tag
         self.team_nickname: str = self.bio["team_nickname"]
