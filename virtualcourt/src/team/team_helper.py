@@ -59,13 +59,14 @@ def extract_team_tags():
     return team_tags
 
 
-def match_tag_to_id(id_to_find: int):
+def match_tag_to_id(id_to_find: int|str):
     """Return a dict object with team_id: team_tag key-value pair
 
-    :param id_to_find: str
+    :param id_to_find: str | int
     :return: tag: dict{int: str}
     """
-
+    if type(id_to_find) == str:
+        id_to_find = int(id_to_find)
     teams_bio: dict = load_teams_bio()
     tag: dict = {}
     for team_bio in teams_bio.items():
@@ -77,5 +78,3 @@ def match_tag_to_id(id_to_find: int):
 
 if __name__ == "__main__":
     main()
-
-print(match_tag_to_id(1610612737))
