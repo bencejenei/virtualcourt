@@ -6,13 +6,14 @@ def main():
     format_team_bio_file()
 
 
-def format_team_bio_file() -> None:
+def format_team_bio_file() -> dict:
     """Overwrite '.../data/formatted/team_bio_form' file.
     input: team bio file located at '.../data/raw/team_bio_form'
     output: datafile, containing dict-style formatted team bio
     """
 
-    raw_file: list[list[str]] = json.load(open(team_bio_raw(), "r"))
+    with open(team_bio_raw(), "r") as file:
+        raw_file: list[list[str]] = json.load(file)
     team_database: dict = {}
 
     for entry in raw_file:
@@ -27,7 +28,10 @@ def format_team_bio_file() -> None:
         }
         team_database.update(temp_dict)
 
-    open(team_bio_formatted(), "w").write(json.dumps(team_database, indent=4))
+    with open(team_bio_formatted(), "w") as file:
+        file.write(json.dumps(team_database, indent=4))
+
+    return team_database
 
 
 if __name__ == "__main__":
