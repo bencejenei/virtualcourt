@@ -7,9 +7,18 @@ def main():
 
 
 def format_team_bio_file() -> dict:
-    """Overwrite '.../data/formatted/team_bio_form' file.
-    input: team bio file located at '.../data/raw/team_bio_form'
-    output: datafile, containing dict-style formatted team bio
+    """Convert and format 'team_stats.csv' to 'team_stats_form.json' and save it to
+    '.../virtualcourt/virtualcourt/data/formatted/team_bio_form.json'
+
+    input: JSON file, containing every team's bio
+            location:   '.../virtualcourt/virtualcourt/data/raw/team_bio.json'
+            file format: JSON
+
+    output: JSON file, containing dict-style formatted team bio
+            location: '.../virtualcourt/virtualcourt/data/formatted/team_bio_form.json'
+            file format: JSON
+
+    :return: team_database: dic
     """
 
     with open(team_bio_raw(), "r") as file:
