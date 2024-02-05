@@ -6,50 +6,76 @@ def main():
     pass
 
 
-def load_teams_bio():
+def load_teams_bio() -> dict:
+    """Return dict of the team's bio located at:
+        '.../virtualcourt/virtualcourt/data/formatted/team_bio_form.json'
+
+    :return: teams_bio: dict
+    """
+
     with open(team_bio_formatted(), "r") as bio:
-        teams_bio = json.load(bio)
+        teams_bio: dict = json.load(bio)
     return teams_bio
 
 
-def load_teams_stats():
+def load_teams_stats() -> dict:
+    """Return dict of the team's stats located at:
+        '.../virtualcourt/virtualcourt/data/formatted/team_stats_form.json'
+
+    :return: teams_stats: dict
+    """
+
     with open(team_stats_formatted(), "r") as bio:
-        teams_stat = json.load(bio)
+        teams_stat: dict = json.load(bio)
     return teams_stat
 
 
-def extract_team_ids():
-    teams_bio = load_teams_bio()
-    team_ids = []
+def extract_team_ids() -> list[int]:
+    """Return a list with the team_id number of all teams
+
+    :return: team_list: list[int]
+    """
+
+    teams_bio: dict = load_teams_bio()
+    team_ids: list = []
 
     for team_bio in teams_bio:
         team_ids.append(team_bio)
-
     return team_ids
 
 
 def extract_team_tags():
-    teams_bio = load_teams_bio()
-    team_tags = []
+    """Return a list with the team_id number of all teams
+
+    :return: team_tags: list[str]
+    """
+
+    teams_bio: dict = load_teams_bio()
+    team_tags: list = []
 
     for team_bio in teams_bio:
         for values in team_bio.values():
             team_tags.append(values["team_tag"])
-
     return team_tags
 
 
-def match_tag_to_id(id_to_find):
-    teams_bio = load_teams_bio()
-    tag = ""
+def match_tag_to_id(id_to_find: int):
+    """Return a dict object with team_id: team_tag key-value pair
+
+    :param id_to_find: str
+    :return: tag: dict{int: str}
+    """
+
+    teams_bio: dict = load_teams_bio()
+    tag: dict = {}
     for team_bio in teams_bio.items():
-        x = team_bio[0]
-        if id_to_find == team_bio[0]:
-            tag = team_bio[1]["team_tag"]
-        else:
-            pass
+        if id_to_find == int(team_bio[0]):
+            tag = {id_to_find: team_bio[1]["team_tag"]}
+            return tag
     return tag
 
 
 if __name__ == "__main__":
     main()
+
+print(match_tag_to_id(1610612737))
