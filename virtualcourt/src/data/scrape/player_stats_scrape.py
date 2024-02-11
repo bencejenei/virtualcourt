@@ -27,7 +27,7 @@ def player_stats():
         except:
             pass
 
-    datafile = datafiles.player_stats()
+    datafile = datafiles.player_stats_raw()
     open(datafile, "w").write(json.dumps(player_card, indent=4))
 
 

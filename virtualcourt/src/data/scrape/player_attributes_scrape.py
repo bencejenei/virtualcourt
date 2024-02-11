@@ -81,7 +81,7 @@ def get_player_ratings():
 
     print(team_attr)
 
-    datafile = datafiles.player_attributes()
+    datafile = datafiles.player_attributes_raw()
     open(datafile, "w").write(json.dumps(team_attr, indent=4))
 
 
